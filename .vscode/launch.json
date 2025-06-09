@@ -1,0 +1,385 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticExample",
+            "request": "launch",
+            "mainClass": "ArithmeticExample",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "AssignmentEx",
+            "request": "launch",
+            "mainClass": "AssignmentEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "Datatypes",
+            "request": "launch",
+            "mainClass": "Datatypes",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "Example1Forstatic",
+            "request": "launch",
+            "mainClass": "Example1Forstatic",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "InstanceVar",
+            "request": "launch",
+            "mainClass": "InstanceVar",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "LargestnumberEx",
+            "request": "launch",
+            "mainClass": "LargestnumberEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "Localvar",
+            "request": "launch",
+            "mainClass": "Localvar",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "LogicalEx",
+            "request": "launch",
+            "mainClass": "LogicalEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "One_To_hundred_Using_do_while",
+            "request": "launch",
+            "mainClass": "One_To_hundred_Using_do_while",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "One_To_hundred_Using_while",
+            "request": "launch",
+            "mainClass": "One_To_hundred_Using_while",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "RelationalEx",
+            "request": "launch",
+            "mainClass": "RelationalEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "TernaryEx",
+            "request": "launch",
+            "mainClass": "TernaryEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "all_divisors_of_N",
+            "request": "launch",
+            "mainClass": "Top_Practice_Coding_Programs.all_divisors_of_N",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "ageCal",
+            "request": "launch",
+            "mainClass": "ageCal",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "alphA_print",
+            "request": "launch",
+            "mainClass": "alphA_print",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "bitwiseEx",
+            "request": "launch",
+            "mainClass": "bitwiseEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "count_prime_num",
+            "request": "launch",
+            "mainClass": "count_prime_num",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "evenOrodd",
+            "request": "launch",
+            "mainClass": "evenOrodd",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "factorial_Methods",
+            "request": "launch",
+            "mainClass": "factorial_Methods",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "forLoopEx",
+            "request": "launch",
+            "mainClass": "forLoopEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "identifiers",
+            "request": "launch",
+            "mainClass": "identifiers",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "ifExample",
+            "request": "launch",
+            "mainClass": "ifExample",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "keywords",
+            "request": "launch",
+            "mainClass": "keywords",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "methodEx",
+            "request": "launch",
+            "mainClass": "methodEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "nestedIfelseEx",
+            "request": "launch",
+            "mainClass": "nestedIfelseEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "odd_num",
+            "request": "launch",
+            "mainClass": "odd_num",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "post_decrement",
+            "request": "launch",
+            "mainClass": "post_decrement",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "post_increment",
+            "request": "launch",
+            "mainClass": "post_increment",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "postiveAndNegativeNumber",
+            "request": "launch",
+            "mainClass": "postiveAndNegativeNumber",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "pre_increment",
+            "request": "launch",
+            "mainClass": "pre_increment",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "prime_num",
+            "request": "launch",
+            "mainClass": "prime_num",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "prime_r_composite",
+            "request": "launch",
+            "mainClass": "prime_r_composite",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "print_even_number_btw_200_to_500_using_do_while",
+            "request": "launch",
+            "mainClass": "print_even_number_btw_200_to_500_using_do_while",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "print_even_number_btw_200_to_500_using_while",
+            "request": "launch",
+            "mainClass": "print_even_number_btw_200_to_500_using_while",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "print_n_prime_numbers",
+            "request": "launch",
+            "mainClass": "print_n_prime_numbers",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "rev_num",
+            "request": "launch",
+            "mainClass": "rev_num",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "shiftOperatorEx",
+            "request": "launch",
+            "mainClass": "shiftOperatorEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "simpleInterest",
+            "request": "launch",
+            "mainClass": "simpleInterest",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "smallestNum",
+            "request": "launch",
+            "mainClass": "smallestNum",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "staticVar",
+            "request": "launch",
+            "mainClass": "staticVar",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_even_num",
+            "request": "launch",
+            "mainClass": "sum_of_even_num",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_even_numbers",
+            "request": "launch",
+            "mainClass": "sum_of_even_numbers",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_first_n_natural_numbers",
+            "request": "launch",
+            "mainClass": "sum_of_first_n_natural_numbers",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_integers",
+            "request": "launch",
+            "mainClass": "sum_of_integers",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "swap",
+            "request": "launch",
+            "mainClass": "swap",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "switchEx",
+            "request": "launch",
+            "mainClass": "switchEx",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "to_check_whether_a_character_is_alphabet_digit_r_special_character",
+            "request": "launch",
+            "mainClass": "to_check_whether_a_character_is_alphabet_digit_r_special_character",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        },
+        {
+            "type": "java",
+            "name": "whileExample",
+            "request": "launch",
+            "mainClass": "whileExample",
+            "projectName": "Java Concepts + DSA Challenge_4ff40d71"
+        }
+    ]
+}
