@@ -1,4 +1,6 @@
 public class InstanceVar {
+    // it is instance variable
+    // within the class but outside method
     int number = 10;
     void see()
     {
