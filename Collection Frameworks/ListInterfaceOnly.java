@@ -15,6 +15,11 @@ public class ListInterfaceOnly {
         age.add(23);
 
         System.out.println(age);
+
+        for(Integer result: age)
+        {
+            System.out.println(result);
+        }
         
 
         
