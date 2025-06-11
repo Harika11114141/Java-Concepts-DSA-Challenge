@@ -74,3 +74,24 @@ public class Groceries {
         System.out.println(groceries.lastIndexOf("Eggs"));
     }
 }
+
+
+// [Milk, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd]
+// [35.00, 150.00, 55.00, 60.00, 30.00]
+// [35.00, 150.00, 55.00, Milk, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd, 60.00, 30.00]
+// [Milk, Eggs, coconut, curd, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd]
+// [35.00, 150.00, Milk, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd, 60.00, 30.00]
+// [Milk, coconut, curd, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd]
+// [35.00, 150.00, 60.00, 30.00]
+// curd
+// [Milk, rice, bread, Eggs, coconut, besan flour, curd, Eggs, coconut, besan flour, curd]
+// true
+// true
+// [Milk, rice, bread, 35.00, 150.00, 60.00, 30.00, Eggs, coconut, paste, curd, Eggs, coconut, besan flour, curd]
+// 15
+// Milk
+// 20
+// 4
+// 20
+// 7
+// 11
