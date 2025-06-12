@@ -6,12 +6,12 @@ public class ArrayListEx {
     public static void main(String[] args) {
         ArrayList<Integer> A = new ArrayList<>();
         A.add(22);
-        A.add(22);
-        A.add(22);
-        A.add(22);
+        A.add(42);
+        A.add(212);
+        A.add(89);
         A.add(22);
 
-        //System.out.println(A);
+        System.out.println(A);
 
         // Integer[] arr = new Integer[]{23,37,28,292,929};
         // ArrayList<Integer> A1 = new ArrayList<>(Arrays.asList(arr));
@@ -28,8 +28,15 @@ public class ArrayListEx {
         System.out.println(A);
 
         // externally will synchronized
-        Collections.synchronizedList(A);
+        //Collections.synchronizedList(A);
+        //System.out.println(A);
+        // will advanced code in future
+
+
+        // here how to sort a values in arraylist
+        Collections.sort(A);
         System.out.println(A);
+
 
     }
 }
