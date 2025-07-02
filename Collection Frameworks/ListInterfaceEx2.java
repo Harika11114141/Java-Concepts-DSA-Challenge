@@ -36,7 +36,7 @@ public class ListInterfaceEx2 {
 
         // the movie name is present or not will chesk using the contains operation
 
-        System.out.println(movies.contains("oyy"));
+        System.out.println(movies.contains("oyy")); // false , becoz Oyy is there not oyy
 
     }
 }

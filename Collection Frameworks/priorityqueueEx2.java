@@ -17,12 +17,10 @@ public class priorityqueueEx2 {
         // floor.offer(2);
         // floor.add(4);
         // floor.add(3);
-        floor.add(2);
+        //floor.add(2);
         Integer v = floor.take();
         System.out.println(v);
         // floor.add(null);
         // System.out.println(floor); // exception
-        floor.add(3);
-        System.out.println(floor);
     }
 }

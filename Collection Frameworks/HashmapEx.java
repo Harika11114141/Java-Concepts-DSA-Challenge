@@ -31,6 +31,9 @@ public class HashmapEx {
         }
 
         hm.replace("brinjal", 3);
-        System.out.print(hm);
+        System.out.println(hm);
+
+        HashMap<String, Integer> hm1 = new HashMap<>(hm);
+        System.out.println(hm1);
     }
 }

@@ -108,7 +108,7 @@ public class VectorEx4 {
 
         // clone - copy
         Vector<Object> vag = (Vector<Object>) v.clone();
-        System.out.println(vag);
+        System.out.println(vag); // [HArika, 22, Sakshi, 45.7, 777.9999, 0, Hello my name is harika, BAla, Pandu, 88888888, OOPs, collections]
 
     }  
 }

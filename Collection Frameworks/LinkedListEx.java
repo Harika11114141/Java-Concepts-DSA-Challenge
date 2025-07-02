@@ -12,6 +12,11 @@ public class LinkedListEx {
          * Iterable<type> varName = new LinkedList<>(); - Iterable is root interface for all
          * 
          * so I'm using list here 
+         * There is no default capacity or size in LinkedList.
+         * That’s because:
+         * LinkedList is not array-based like ArrayList.
+         * It uses Nodes (each node stores data, prev, and next).
+         * So it grows dynamically as you add elements—no need to define initial capacity.
          */
         LinkedList<String> Names = new LinkedList<>();
         ArrayList<String> hobby = new ArrayList<>();
